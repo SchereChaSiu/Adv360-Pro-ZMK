@@ -2,19 +2,19 @@ macro_backspace_word: macro_backspace_word{
 compatible = "zmk,behavior-macro";
 label = "macro_backspace_word";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp BACKSPACE>;
+bindings = <&sk LCTRL>, <&kp BACKSPACE>;
 };
 macro_paste: macro_paste{
 compatible = "zmk,behavior-macro";
 label = "macro_paste";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp V>;
+bindings = <&sk LCTRL>, <&kp V>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
 label = "macro_copy";
 #binding-cells = <0>;
-bindings = <&kp LCTRL>, <&kp C>;
+bindings = <&sk LCTRL>, <&kp C>;
 };
 macro_reverse_alt_tab: macro_reverse_alt_tab{
 compatible = "zmk,behavior-macro";
